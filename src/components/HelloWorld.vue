@@ -32,7 +32,7 @@
     </nav>
   </section>
   <!-- Hero Section -->
-  <section class="justify-center relative top-16">
+  <section class="justify-center mt-16 pt-14">
     <!-- Background effect -->
     <div class="absolute  inset-0 flex justify-around">
       <div class="relative w-[412px] h-[412px] rounded-full bg-[#8FD45F] opacity-20 blur-[90px]"></div>
@@ -102,6 +102,36 @@
     </div>
   </section>
   <!-- End of Hero Section -->
+
+  <!-- slider bar -->
+  <section>
+    <marquee class="marquee-container bg-[#573db8]" behavior="scroll" direction="left" scrollamount="10">
+      <div>
+        <div class="marquee-content flex gap-10 items-center animate-marquee">
+          <div class="px-4 py-7 text-white rounded w-full flex items-center gap-2.5">
+            <h2 class="text-7xl font-bold">Tech Mastery</h2>
+            <img class="p-5 bg-[#6850bf] rounded-full" src="../assets/img/website.svg" alt="">
+          </div>
+          <div class="px-4 py-7 text-white rounded w-full flex items-center gap-2.5">
+            <h2 class="text-7xl font-bold">Software Solutions Pro</h2>
+            <img class="p-5 bg-[#6850bf] rounded-full" src="../assets/img/access.svg" alt="">
+          </div>
+          <div class="px-4 py-7 text-white rounded w-full flex items-center gap-2.5">
+            <h2 class="text-7xl font-bold">Tech Savvy saolution</h2>
+            <img class="p-5 bg-[#6850bf] rounded-full" src="../assets/img/website.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </marquee>
+  </section>
+
+
+
+  <marquee behavior="a" direction="left">
+
+
+
+  </marquee>
 </template>
 
 <style scoped></style>
