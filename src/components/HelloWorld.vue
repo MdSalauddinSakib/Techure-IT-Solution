@@ -134,9 +134,11 @@
           <span class="uppercase font-bold text-lg tracking-[4px]">Latest Service</span>
           <h2 class="font-bold text-[70px] mt-4">Pro Driven a <br> Globally </h2>
           <div class="flex items-center mt-10">
-            <a href="#" class="bg-[#573db8] text-lg font-bold text-white py-5 px-[30px] rounded-full">View All
+            <a href="#"
+              class="bg-[#573db8] text-lg font-bold text-white py-5 px-[30px] rounded-full hover:bg-purple-600">View
+              All
               Services</a>
-            <a href="#" class=""><img class="bg-[#573db8] rounded-full w-[60px] h-[60px]"
+            <a href="#" class=""><img class="bg-[#573db8] hover:bg-purple-600 rounded-full w-[60px] h-[60px]"
                 src="../assets/img/arrow-icon.svg" alt=""></a>
           </div>
         </div>
@@ -559,6 +561,86 @@
       </div>
     </div>
   </section>
+  <!-- End of Service Section -->
+
+  <!-- Project Section -->
+  <section class="bg-white container mx-auto py-37 max-w-7xl">
+    <!-- Heading and description -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 items-end gap-10 mb-12">
+      <div>
+        <p class="uppercase font-bold text-lg tracking-[4px]">Latest Project </p>
+        <h2 class="font-bold text-[70px]">Our Latest Project </h2>
+      </div>
+      <div class="text-gray-600 mb-5">
+        <p>
+          Information Technology is a rapidly evolving field that encompasses the study and application of computing
+          technology to solve problems.
+        </p>
+      </div>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <!-- Project Card -->
+      <div class="relative overflow-hidden ">
+        <img src="../assets/img/project_image1.png" alt="" class="w-full h-[485px] object-cover">
+        <span class="absolute top-4 left-4 bg-black text-white text-xs font-semibold px-3 py-1 rounded-full">Cloud Sync
+          Solutions</span>
+        <div class="p-4">
+          <p class="font-bold text-2xl">Shaping the Digital Landscape</p>
+        </div>
+      </div>
+
+      <!-- Repeat cards with different badges/images -->
+      <div class="relative overflow-hidden ">
+        <img src="../assets/img/project_image2.png" alt="" class="w-full h-[559px] object-cover rounded-3xl">
+        <span class="absolute top-4 left-4 bg-purple-600 text-white text-xs font-semibold px-3 py-1 rounded-full">Cyber
+          Shield Defense</span>
+        <div class="p-4">
+          <p class="font-bold text-2xl">Shaping the Digital Landscape</p>
+        </div>
+      </div>
+
+      <div class="relative overflow-hidden">
+        <img src="../assets/img/project_image3.png" alt="" class="w-full h-[485px] object-cover rounded-3xl">
+        <span class="absolute top-4 left-4 bg-indigo-700 text-white text-xs font-semibold px-3 py-1 rounded-full">Net
+          Connect Pro</span>
+        <div class="p-4">
+          <p class="font-bold text-2xl">Shaping the Digital Landscape</p>
+        </div>
+      </div>
+
+      <div class="relative overflow-hidden mt-20">
+        <img src="../assets/img/project_image4.png" alt="" class="w-full h-[559px] object-cover rounded-3xl">
+        <span class="absolute top-4 left-4 bg-gray-800 text-white text-xs font-semibold px-3 py-1 rounded-full">Byte
+          Guard Protection</span>
+        <div class="p-4">
+          <p class="font-bold text-2xl">Shaping the Digital Landscape</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Button -->
+    <div class="mt-10 flex">
+      <button
+        class="flex items-center gap-2 bg-[#573DB8] hover:bg-purple-700 text-white text-sm font-semibold px-6 py-3 rounded-full cursor-pointer">
+        View All Project
+      </button>
+      <button class="bg-[#573db8] hover:bg-purple-600 rounded-full p-1 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M27.838 13.4025L13.4015 27.839L12.1641 26.6016L26.6006 12.165L27.838 13.4025Z" fill="white" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M25.9755 12.7784C23.0654 15.6885 23.2466 20.6255 25.9755 23.3544L26.5942 23.9731L27.8316 22.7357L27.2129 22.1169C25.141 20.0451 25.0124 16.2164 27.2129 14.0159L27.8313 13.3975L26.5939 12.16L25.9755 12.7784Z"
+            fill="white" />
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M27.2182 14.0172C24.3081 16.9272 19.371 16.746 16.6422 14.0172L16.0234 13.3984L17.2609 12.161L17.8796 12.7797C19.9515 14.8517 23.7802 14.9803 25.9807 12.7798L26.5991 12.1614L27.8365 13.3988L27.2182 14.0172Z"
+            fill="white" />
+        </svg>
+      </button>
+    </div>
+  </section>
+
 </template>
 
 <style scoped></style>
