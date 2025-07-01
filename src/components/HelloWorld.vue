@@ -621,7 +621,7 @@
     </div>
 
     <!-- Button -->
-    <div class="mt-10 flex">
+    <div class="flex">
       <button
         class="flex items-center gap-2 bg-[#573DB8] hover:bg-purple-700 text-white text-sm font-semibold px-6 py-3 rounded-full cursor-pointer">
         View All Project
@@ -640,7 +640,170 @@
       </button>
     </div>
   </section>
+  <!-- End of Project Section -->
 
+  <!-- Team Member Section -->
+  <section class="bg-[#f7f1fc] py-36">
+    <div class="container mx-auto max-w-7xl ">
+      <h3 class="uppercase font-bold text-lg tracking-[4px] text-center">
+        Our Team </h3>
+      <h2 class="font-bold text-[70px] text-center mb-15">
+        Meet Our Team Member</h2>
+
+      <div class="flex flex-wrap justify-center gap-10">
+        <div
+          class="relative w-96 h-96 rounded-full border border-gray-300 flex justify-center items-end overflow-hidden ">
+          <!-- Profile Image -->
+          <img src="../assets/img/man_2.png" alt="Team Member" class="absolute bottom-0 w-[80%] z-0" />
+
+          <!-- Bottom Banner -->
+          <div
+            class="absolute bottom-0 w-full h-26 bg-[#573db8] rounded-t-[100%] z-10 flex items-end justify-center pb-10">
+            <p class="text-white font-bold text-2xl">Darlene Robertson</p>
+          </div>
+
+          <!-- Share Button -->
+          <div
+            class="share-button absolute bottom-22 w-10 h-10 rounded-full bg-white hover:bg-[#8FD45F] shadow-md flex items-center justify-center cursor-pointer z-20"
+            onclick="toggleShareMenu(this)">
+            <i class="fas fa-share-alt text-black text-sm"></i>
+          </div>
+
+          <!-- Share Menu -->
+          <div
+            class="share-menu absolute bottom-28 bg-white shadow-lg rounded-full px-4 py-2 flex flex-col mb-6 gap-3 items-center z-30 hidden">
+            <a href="#" title="Facebook" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter" class="text-lg hover:scale-110 transition"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" title="LinkedIn" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div
+          class="relative w-96 h-96 rounded-full border border-gray-300 flex justify-center items-end overflow-hidden">
+          <!-- Profile Image -->
+          <img src="../assets/img/man_3.png" alt="Team Member" class="absolute bottom-20 w-[55%] z-0" />
+
+          <!-- Bottom Banner -->
+          <div
+            class="absolute bottom-0 w-full h-26 bg-[#573db8] rounded-t-[100%] z-10 flex items-end justify-center pb-10">
+            <p class="text-white font-bold text-2xl">Esther Howard</p>
+          </div>
+
+          <!-- Share Button -->
+          <div
+            class="share-button absolute bottom-22 w-10 h-10 rounded-full bg-white hover:bg-[#8FD45F] shadow-md flex items-center justify-center cursor-pointer z-20"
+            onclick="toggleShareMenu(this)">
+            <i class="fas fa-share-alt text-black text-sm"></i>
+          </div>
+
+          <!-- Share Menu -->
+          <div
+            class="share-menu absolute bottom-28 bg-white shadow-lg rounded-full px-4 py-2 flex flex-col mb-6 gap-3 items-center z-30 hidden">
+            <a href="#" title="Facebook" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter" class="text-lg hover:scale-110 transition"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" title="LinkedIn" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div
+          class="relative w-96 h-96 rounded-full border border-gray-300 flex justify-center items-end overflow-hidden">
+          <!-- Profile Image -->
+          <img src="../assets/img/man_4.png" alt="Team Member" class="absolute bottom-0 -left-0 w-[80%] z-0" />
+
+          <!-- Bottom Banner -->
+          <div
+            class="absolute bottom-0 w-full h-26 bg-[#573db8] rounded-t-[100%] z-10 flex items-end justify-center pb-10">
+            <p class="text-white font-bold text-2xl">Devon Lane</p>
+          </div>
+
+          <!-- Share Button -->
+          <div
+            class="share-button absolute bottom-22 w-10 h-10 rounded-full bg-white hover:bg-[#8FD45F] shadow-md flex items-center justify-center cursor-pointer z-20"
+            onclick="toggleShareMenu(this)">
+            <i class="fas fa-share-alt text-black text-sm"></i>
+          </div>
+
+          <!-- Share Menu -->
+          <div
+            class="share-menu absolute bottom-28 bg-white shadow-lg rounded-full px-4 py-2 flex flex-col mb-6 gap-3 items-center z-30 hidden">
+            <a href="#" title="Facebook" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter" class="text-lg hover:scale-110 transition"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" title="LinkedIn" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div
+          class="relative w-96 h-96 rounded-full border border-gray-300 flex justify-center items-end overflow-hidden">
+          <!-- Profile Image -->
+          <img src="../assets/img/man_5.png" alt="Team Member" class="absolute bottom-0 w-[70%] z-0" />
+
+          <!-- Bottom Banner -->
+          <div
+            class="absolute bottom-0 w-full h-26 bg-[#573db8] rounded-t-[100%] z-10 flex items-end justify-center pb-10">
+            <p class="text-white font-bold text-2xl">Guy Hawkins</p>
+          </div>
+
+          <!-- Share Button -->
+          <div
+            class="share-button absolute bottom-22 w-10 h-10 rounded-full bg-white hover:bg-[#8FD45F] shadow-md flex items-center justify-center cursor-pointer z-20"
+            onclick="toggleShareMenu(this)">
+            <i class="fas fa-share-alt text-black text-sm"></i>
+          </div>
+
+          <!-- Share Menu -->
+          <div
+            class="share-menu absolute bottom-28 bg-white shadow-lg rounded-full px-4 py-2 flex flex-col mb-6 gap-3 items-center z-30 hidden">
+            <a href="#" title="Facebook" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter" class="text-lg hover:scale-110 transition"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" title="LinkedIn" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div
+          class="relative w-96 h-96 rounded-full border border-gray-300 flex justify-center items-end overflow-hidden">
+          <!-- Profile Image -->
+          <img src="../assets/img/man_6.png" alt="Team Member" class="absolute bottom-0 w-[90%] z-0" />
+
+          <!-- Bottom Banner -->
+          <div
+            class="absolute bottom-0 w-full h-26 bg-[#573db8] rounded-t-[100%] z-10 flex items-end justify-center pb-10">
+            <p class="text-white font-bold text-2xl">Annette Black</p>
+          </div>
+
+          <!-- Share Button -->
+          <div
+            class="share-button absolute bottom-22 w-10 h-10 rounded-full bg-white hover:bg-[#8FD45F] shadow-md flex items-center justify-center cursor-pointer z-20"
+            onclick="toggleShareMenu(this)">
+            <i class="fas fa-share-alt text-black text-sm"></i>
+          </div>
+
+          <!-- Share Menu -->
+          <div
+            class="share-menu absolute bottom-28 bg-white shadow-lg rounded-full px-4 py-2 flex flex-col mb-6 gap-3 items-center z-30 hidden">
+            <a href="#" title="Facebook" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter" class="text-lg hover:scale-110 transition"><i
+                class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" title="LinkedIn" class="text-lg hover:scale-110 transition"><i
+                class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Team Member Section -->
 </template>
 
 <style scoped></style>

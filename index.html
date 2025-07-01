@@ -16,5 +16,24 @@
 
 
     <script type="module" src="/src/main.js"></script>
+    <script>
+       // Toggle only the clicked card's menu
+        function toggleShareMenu(el) {
+          const card = el.closest(".relative");
+          const menu = card.querySelector(".share-menu");
+          menu.classList.toggle("hidden");
+        }
+
+        // Optional: click outside to close any open menu
+        document.addEventListener("click", function (e) {
+          document.querySelectorAll(".share-menu").forEach(menu => {
+            const card = menu.closest(".relative");
+            const button = card.querySelector(".share-button");
+            if (!menu.contains(e.target) && !button.contains(e.target)) {
+              menu.classList.add("hidden");
+            }
+          });
+        });
+    </script>
   </body>
 </html>
