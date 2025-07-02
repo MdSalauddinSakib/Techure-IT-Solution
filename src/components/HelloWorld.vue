@@ -90,7 +90,8 @@
         <div class="w-full lg:w-1/3 order-2 lg:order-1">
           <div class="relative flex justify-center lg:justify-start">
             <img class="w-full max-w-[300px] lg:max-w-[200px]" src="../assets/img/image_1.png" alt="">
-            <img class="absolute top-12 left-40 lg:top-8 lg:left-20 w-12 h-12" src="../assets/img/video_icon.png" alt="">
+            <img class="absolute top-12 left-40 lg:top-8 lg:left-20 w-12 h-12" src="../assets/img/video_icon.png"
+              alt="">
           </div>
           <div class="pt-6 md:pt-7">
             <p class="text-[#716F73] text-base md:text-lg font-medium pb-4 md:pb-7 text-center lg:text-left">
@@ -105,7 +106,8 @@
 
         <!-- Second column (center image) -->
         <div class="w-full lg:w-1/3 order-1 lg:order-2 flex justify-center">
-          <img class=" max-w-[300px] md:max-w-[400px] lg:w-[403px] lg:h-[460px]" src="../assets/img/cover-man.png" alt="">
+          <img class=" max-w-[300px] md:max-w-[400px] lg:w-[403px] lg:h-[460px]" src="../assets/img/cover-man.png"
+            alt="">
         </div>
 
         <!-- Third column -->
@@ -146,17 +148,17 @@
     <marquee class="marquee-container bg-[#573db8]" behavior="scroll" direction="left" scrollamount="10">
       <div>
         <div class="marquee-content flex gap-10 items-center animate-marquee">
-          <div class="px-4 py-7 text-white rounded w-full flex items-center gap-2.5">
-            <h2 class="text-7xl font-bold">Tech Mastery</h2>
-            <img class="p-5 bg-[#6850bf] rounded-full" src="../assets/img/website.svg" alt="">
+          <div class="px-4 py-2 lg:py-7 text-white rounded w-full flex items-center gap-2.5">
+            <h2 class="text-3xl lg:text-7xl font-bold">Tech Mastery</h2>
+            <img class="p-2 lg:p-5 bg-[#6850bf] rounded-full" src="../assets/img/website.svg" alt="">
           </div>
-          <div class="px-4 py-7 text-white rounded w-full flex items-center gap-2.5">
-            <h2 class="text-7xl font-bold">Software Solutions Pro</h2>
-            <img class="p-5 bg-[#6850bf] rounded-full" src="../assets/img/access.svg" alt="">
+          <div class="px-4 py-2 lg:py-7 text-white rounded w-full flex items-center gap-2.5">
+            <h2 class="text-3xl lg:text-7xl font-bold">Software Solutions Pro</h2>
+            <img class="p-2 lg:p-5 bg-[#6850bf] rounded-full" src="../assets/img/access.svg" alt="">
           </div>
-          <div class="px-4 py-7 text-white rounded w-full flex items-center gap-2.5">
-            <h2 class="text-7xl font-bold">Tech Savvy saolution</h2>
-            <img class="p-5 bg-[#6850bf] rounded-full" src="../assets/img/website.svg" alt="">
+          <div class="px-4 py-2 lg:py-7 text-white rounded w-full flex items-center gap-2.5">
+            <h2 class="text-3xl lg:text-7xl font-bold">Tech Savvy saolution</h2>
+            <img class="p-2 lg:p-5 bg-[#6850bf] rounded-full" src="../assets/img/website.svg" alt="">
           </div>
         </div>
       </div>
