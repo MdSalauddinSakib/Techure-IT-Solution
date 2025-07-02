@@ -50,77 +50,93 @@
       </div>
     </nav>
   </section>
-
-  <!-- Navbar Section -->
+  <!-- End of Navbar Section-->
 
   <!-- Hero Section -->
-  <section class="justify-center mt-16 pt-14">
+  <section class="relative justify-center mt-8 md:mt-16 pt-8 md:pt-14 px-4 sm:px-6 lg:px-8 overflow-hidden">
     <!-- Background effect -->
-    <div class="absolute  inset-0 flex justify-around">
-      <div class="relative w-[412px] h-[412px] rounded-full bg-[#8FD45F] opacity-20 blur-[90px]"></div>
-      <div class="relative w-[412px] h-[412px] rounded-full bg-[#573DB8] opacity-20 blur-[90px] top-[190px]"></div>
+    <div class="absolute inset-0 flex justify-around overflow-hidden">
+      <div
+        class="relative w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[412px] md:h-[412px] rounded-full bg-[#8FD45F] opacity-20 blur-[50px] md:blur-[90px]">
+      </div>
+      <div
+        class="relative w-[200px] h-[200px] sm:w-[300px] sm:h-[300px] md:w-[412px] md:h-[412px] rounded-full bg-[#573DB8] opacity-20 blur-[50px] md:blur-[90px] md:top-[190px] top-[100px]">
+      </div>
     </div>
 
     <!-- Content -->
-    <div class="container mx-auto font-DM-Sans">
+    <div class="container mx-auto font-DM-Sans mt-12">
       <!-- header text -->
-      <h1 class="text-xl text-center text-[90px] font-light"><span class="font-bold">Elevate with IT </span>Solutions
-        <br>
+      <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-[90px] text-center font-light leading-tight">
+        <span class="font-bold">Elevate with IT </span>Solutions
+        <br class="hidden md:block">
         Tech Excellence
       </h1>
     </div>
+
     <!-- Image section -->
-    <div class="flex justify-around">
-      <!-- side bar -->
-      <div class="flex flex-col gap-18 -mt-22">
-        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+    <div class="flex flex-col lg:flex-row justify-around mt-8 md:mt-12">
+      <!-- side bar - hidden on mobile, visible on lg+ -->
+      <div class="hidden lg:flex flex-col gap-18 items-center justify-center">
+        <a href="#" class="text-xl hover:text-[#573DB8] transition-colors"><i class="fa-brands fa-pinterest-p"></i></a>
+        <a href="#" class="text-xl hover:text-[#573DB8] transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#" class="text-xl hover:text-[#573DB8] transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" class="text-xl hover:text-[#573DB8] transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
       </div>
+
       <!-- main content -->
-      <div class="flex items-center justify-between max-w-[1280px]">
-        <div class="w-1/3">
-          <div>
-            <img class="absolute" src="../assets/img/image_1.png" alt="">
-            <img class="relative top-7 left-18" src="../assets/img/video_icon.png" alt="">
+      <div class="flex flex-col lg:flex-row items-center justify-between w-full max-w-[1280px] gap-8 md:gap-12">
+        <!-- First column -->
+        <div class="w-full lg:w-1/3 order-2 lg:order-1">
+          <div class="relative flex justify-center lg:justify-start">
+            <img class="w-full max-w-[300px] lg:max-w-[200px]" src="../assets/img/image_1.png" alt="">
+            <img class="absolute top-12 left-40 lg:top-8 lg:left-20 w-12 h-12" src="../assets/img/video_icon.png" alt="">
           </div>
-          <div class="pt-18">
-            <p class="text-[#716F73] text-lg font-medium pb-7">Information Technology is a rapidly <br> evolving field
-              that encompasses <br> the
-              study and application
+          <div class="pt-6 md:pt-7">
+            <p class="text-[#716F73] text-base md:text-lg font-medium pb-4 md:pb-7 text-center lg:text-left">
+              Information Technology is a rapidly evolving field that encompasses the study and application
             </p>
-            <div class="flex items-center gap-2.5">
-              <img class="" src="../assets/img/happy_clients.png" alt="">
-              <p class="font-bold text-lg">Happy Clients</p>
+            <div class="flex items-center justify-center lg:justify-start gap-2.5">
+              <img class="w-20 h-10" src="../assets/img/happy_clients.png" alt="">
+              <p class="font-bold text-base md:text-lg">Happy Clients</p>
             </div>
           </div>
         </div>
 
-        <div class="w-1/3">
-          <img class="" src="../assets/img/cover-man.png" alt="">
+        <!-- Second column (center image) -->
+        <div class="w-full lg:w-1/3 order-1 lg:order-2 flex justify-center">
+          <img class=" max-w-[300px] md:max-w-[400px] lg:w-[403px] lg:h-[460px]" src="../assets/img/cover-man.png" alt="">
         </div>
 
-        <div class="w-1/3">
-          <div class="flex items-center gap-5">
+        <!-- Third column -->
+        <div class="w-full lg:w-1/3 order-3 flex flex-col items-center lg:items-start">
+          <div class="flex items-center gap-3 md:gap-5">
             <div>
-              <h2 class="font-bold text-7xl">140+</h2>
+              <h2 class="font-bold text-5xl sm:text-6xl md:text-7xl">140+</h2>
             </div>
             <div>
-              <p class="text-lg font-medium text-[#716F73]">Business <br> People</p>
+              <p class="text-base md:text-lg font-medium text-[#716F73]">Business <br> People</p>
             </div>
           </div>
-          <hr class="w-3/4 border-t-2 border-[#573DB8] my-4">
-          <div class="flex items-center gap-5">
+          <hr class="w-full lg:w-3/4 border-t-2 border-[#573DB8] my-3 md:my-4">
+          <div class="flex items-center gap-3 md:gap-5">
             <div>
-              <h2 class="font-bold text-7xl">99%</h2>
+              <h2 class="font-bold text-5xl sm:text-6xl md:text-7xl">99%</h2>
             </div>
             <div>
-              <p class="text-lg font-medium text-[#716F73]">Customer <br> Satisfaction </p>
+              <p class="text-base md:text-lg font-medium text-[#716F73]">Customer <br> Satisfaction</p>
             </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Mobile social icons - visible on mobile, hidden on lg+ -->
+    <div class="flex lg:hidden justify-center gap-8 mt-8 md:mt-12">
+      <a href="#" class="text-xl hover:text-[#573DB8] transition-colors"><i class="fa-brands fa-pinterest-p"></i></a>
+      <a href="#" class="text-xl hover:text-[#573DB8] transition-colors"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="#" class="text-xl hover:text-[#573DB8] transition-colors"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" class="text-xl hover:text-[#573DB8] transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
     </div>
   </section>
   <!-- End of Hero Section -->
@@ -826,6 +842,9 @@
     </div>
   </section>
   <!-- End of Team Member Section -->
+
+  <!-- -------------------------------------------------- -->
+
 </template>
 
 <style scoped></style>
