@@ -17,6 +17,16 @@
 
     <script type="module" src="/src/main.js"></script>
     <script>
+      //Toggle Script
+      document.addEventListener("DOMContentLoaded", function () {
+          const menuBtn = document.getElementById('menu-btn');
+          const mobileMenu = document.getElementById('mobile-menu');
+
+          menuBtn.addEventListener('click', function () {
+            mobileMenu.classList.toggle('hidden');
+          });
+        });
+
        // Toggle only the clicked card's menu
         function toggleShareMenu(el) {
           const card = el.closest(".relative");
